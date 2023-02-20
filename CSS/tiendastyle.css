@@ -49,7 +49,7 @@
     width: 120px;
     height: 120px;
     position: absolute;
-    bottom: 80px;
+    bottom: -10px;
     right: 120px;
     z-index: -1;
 }
@@ -60,7 +60,7 @@
     height: 70px;
     position: absolute;
     right: -3px;
-    bottom: 350px;
+    bottom: 250px;
 
 }
 
@@ -69,7 +69,7 @@
     width: 70px;
     height: 70px;
     position: absolute;
-    bottom: 400px;
+    bottom: 300px;
     left: -7px;
     z-index: -1;
     opacity: 80%;
@@ -80,7 +80,7 @@
     width: 50px;
     height: 50px;
     position: absolute;
-    bottom: -270px;
+    bottom: -370px;
     right: 30px;
     opacity: 60%;
 }
@@ -130,7 +130,7 @@ h1 {
 
 h2 {
     font-family: tiza;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 5px;
     padding: 5px;
     font-weight: bold; 
@@ -143,7 +143,7 @@ h2 {
 h3 {
     font-family: tiza5;
     letter-spacing: 1px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #edf2f4;
     margin: 2px;
     padding: 5px;
@@ -164,7 +164,7 @@ h3 {
     width: 35vw;
     /* border: 1px solid white; */
     color: rgba(184, 135, 11, 0.65);
-    margin: 10px;
+    margin: 15px;
     justify-content: center;
     
 }
@@ -173,49 +173,49 @@ h3 {
     width: 35vw;
     /* border: 1px solid white; */
     color:rgba(177, 41, 66, 0.65) ;
-    margin: 10px;
+    margin: 15px;
 }
 
 .beerThree {
     width: 35vw;
     /* border: 1px solid white; */
     color:rgba(149, 78, 28, 0.65);
-    margin: 10px;
+    margin: 15px;
 }
 
 .beerFour {
     width: 35vw;
     /* border: 1px solid white; */
     color: rgb(255, 255, 0, 0.65);
-    margin: 10px;
+    margin: 15px;
 }
 
 .beerFive {
     width: 35vw;
     /* border: 1px solid white; */
     color:rgba(255, 0, 0, 0.65);
-    margin: 10px;
+    margin: 15px;
 }
 
 .beerSix {
     width: 35vw;
     /* border: 1px solid white; */
     color: rgb(205, 195, 52);
-    margin: 10px;
+    margin: 15px;
 }
 
 .beerSeven {
     width: 35vw;
     /* border: 1px solid white; */
     color: rgb(104, 161, 104);
-    margin: 10px;
+    margin: 15px;
 }
 
 .beerEight {
     width: 35vw;
     /* border: 1px solid white; */
     color: rgba(215, 104, 221, 0.649);
-    margin: 10px;
+    margin: 15px;
 }
 
 .divisoria {
@@ -270,7 +270,7 @@ h3 {
     font-family: tiza5;
     font-size: 1.3rem;
     text-align: center;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 
