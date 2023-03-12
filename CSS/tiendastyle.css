@@ -39,7 +39,7 @@
  body {
     width: 100%;
     height: 100%;
-    background-image:url(../ASSETS/IMAGES/pizarron3.jpg);
+    background-image:url(../ASSETS/IMAGES/Vectores/pizarron2.jpg);
     overflow-x: hidden;
     
  }
@@ -51,7 +51,7 @@
     width: 120px;
     height: 120px;
     position: absolute;
-    bottom: -10px;
+    bottom: 70px;
     right: 120px;
     z-index: -1;
 }
@@ -61,8 +61,8 @@
     width: 70px;
     height: 70px;
     position: absolute;
-    right: 1px;
-    bottom: 250px;
+    right: -5px;
+    bottom: 359px;
 
 }
 
@@ -71,8 +71,8 @@
     width: 70px;
     height: 70px;
     position: absolute;
-    bottom: 300px;
-    left: 10px;
+    bottom: 355px;
+    left: 0px;
     z-index: -1;
     opacity: 80%;
 }
@@ -82,9 +82,60 @@
     width: 50px;
     height: 50px;
     position: absolute;
-    bottom: -370px;
+    bottom: -330px;
     right: 30px;
     opacity: 60%;
+}
+
+.growl {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -970px;
+    opacity: 80%;
+}
+
+.trigo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -660px;
+    right: 80px;
+}
+
+.lupulo {
+    width: 150px ;
+    height: 150px;
+    position: absolute;
+    bottom: 520px;
+    right: 80px;
+}
+
+.pizza {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: -1150px;
+    right: 235px;
+    opacity: 70%;
+}
+
+.papas {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: -1255px;
+    right: 2px;
+    opacity: 80%;
+
+}
+
+.moto {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: -790px;
+    right: 15px;
 }
 
 /*  .logoTiendaContainer {
@@ -167,7 +218,7 @@ h3 {
 .beerOne {
     width: 35vw;
     /* border: 1px solid white; */
-    color: rgba(184, 135, 11, 0.65);
+    color: rgb(184, 135, 11);
     margin: 15px;
     justify-content: center;
     
@@ -176,28 +227,28 @@ h3 {
 .beerTwo {
     width: 35vw;
     /* border: 1px solid white; */
-    color:rgba(177, 41, 66, 0.65) ;
+    color:rgb(177, 41, 66) ;
     margin: 12px;
 }
 
 .beerThree {
     width: 35vw;
     /* border: 1px solid white; */
-    color:rgba(149, 78, 28, 0.65);
+    color:rgb(149, 78, 28);
     margin: 12px;
 }
 
 .beerFour {
     width: 35vw;
     /* border: 1px solid white; */
-    color: rgb(255, 255, 0, 0.65);
+    color: rgb(255, 255, 0);
     margin: 12px;
 }
 
 .beerFive {
     width: 35vw;
     /* border: 1px solid white; */
-    color:rgba(255, 0, 0, 0.65);
+    color:rgb(255, 0, 0);
     margin: 12px;
 }
 
@@ -218,7 +269,7 @@ h3 {
 .beerEight {
     width: 35vw;
     /* border: 1px solid white; */
-    color: rgba(215, 104, 221, 0.649);
+    color: rgb(215, 104, 221);
     margin: 12px;
 }
 
