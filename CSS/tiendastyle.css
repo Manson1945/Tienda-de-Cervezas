@@ -36,13 +36,28 @@
     
  }
 
+ .logoTienda {
+    
+    width: 30vw;
+    height: 10vh;
+    margin: auto;
+    
+    
+    
+}
+
  body {
     width: 100%;
     height: 100%;
     background-image:url(../ASSETS/IMAGES/Vectores/pizarron2.jpg);
     overflow-x: hidden;
     
+    
  }
+
+
+
+
 
 
 
@@ -51,30 +66,33 @@
     width: 120px;
     height: 120px;
     position: absolute;
-    bottom: 70px;
-    right: 120px;
+    /* bottom: -90px;
+    right: 120px; */
     z-index: -1;
+    
 }
 
 .beerCup {
-    /* border: #edf2f4 1px solid; */
+    
     width: 70px;
     height: 70px;
     position: absolute;
-    right: -5px;
-    bottom: 359px;
+    right: -7px;
+    bottom: 520px;
+    z-index: -1;
+    opacity: 80%;
 
 }
 
 .beerCup2 {
-   /*  border: #edf2f4 1px solid; */
+   
     width: 70px;
     height: 70px;
     position: absolute;
-    bottom: 355px;
-    left: 0px;
+    
+    left: 0px; 
     z-index: -1;
-    opacity: 80%;
+    opacity: 70%;
 }
 
 .skull {
@@ -82,50 +100,51 @@
     width: 50px;
     height: 50px;
     position: absolute;
-    bottom: -330px;
-    right: 30px;
+   bottom: -150px;
+    right: 30px; 
     opacity: 60%;
+    z-index: -1;
 }
 
 .growl {
     width: 100px;
     height: 100px;
     position: absolute;
-    bottom: -970px;
+    bottom: -930px;
+    right: 200px;
     opacity: 80%;
+    z-index: -1;
 }
 
 .trigo {
     width: 100px;
     height: 100px;
-    position: absolute;
+    /* position: absolute;
     bottom: -660px;
-    right: 80px;
+    right: 80px; */
 }
 
 .lupulo {
-    width: 150px ;
-    height: 150px;
-    position: absolute;
-    bottom: 520px;
-    right: 80px;
+    width: 120px ;
+    height: 120px;
+    
 }
 
 .pizza {
     width: 80px;
     height: 80px;
-    position: absolute;
+    /* position: absolute;
     bottom: -1150px;
-    right: 235px;
+    right: 235px; */
     opacity: 70%;
 }
 
 .papas {
     width: 70px;
     height: 70px;
-    position: absolute;
+   /*  position: absolute;
     bottom: -1255px;
-    right: 2px;
+    right: 2px; */
     opacity: 80%;
 
 }
@@ -133,9 +152,8 @@
 .moto {
     width: 60px;
     height: 60px;
-    position: absolute;
-    bottom: -790px;
-    right: 15px;
+  
+   
 }
 
 /*  .logoTiendaContainer {
@@ -148,15 +166,7 @@
     
  } */
  
-.logoTienda {
-    
-    width: 80vw;
-    height: 30vh;
-    margin: auto;
-    
-    
-    
-}
+
 
 
 
@@ -211,6 +221,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
     margin: 15px;
+    
     
 }
 
@@ -273,10 +284,15 @@ h3 {
     margin: 12px;
 }
 
+.ginTonic {
+    color: rgba(121, 23, 212, 0.912);
+}
+
 .divisoria {
-    /* border: 1px solid white; */
+    
     margin: 10px;
-    width: 90vw;
+    max-width: 90vw;
+    max-height: 50px;
     opacity: 90%;
     color: #edf2f4;
     
