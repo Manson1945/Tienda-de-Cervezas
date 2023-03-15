@@ -37,7 +37,7 @@
  }
 
  .logoTienda {
-    
+    /* border: #edf2f4 solid 1px; */
     width: 30vw;
     height: 10vh;
     margin: auto;
@@ -49,7 +49,8 @@
  body {
     width: 100%;
     height: 100%;
-    background-image:url(../ASSETS/IMAGES/Vectores/pizarron2.jpg);
+    background-image:url(../ASSETS/IMAGES/Vectores/1x/Mesa\ de\ trabajo\ 1.jpg);
+    background-position: top center;
     overflow-x: hidden;
     
     
@@ -229,7 +230,7 @@ h3 {
 .beerOne {
     width: 35vw;
     /* border: 1px solid white; */
-    color: rgb(184, 135, 11);
+    color: rgb(224, 146, 12);
     margin: 15px;
     justify-content: center;
     
@@ -285,7 +286,7 @@ h3 {
 }
 
 .ginTonic {
-    color: rgba(121, 23, 212, 0.912);
+    color: rgba(23, 158, 212, 0.912);
 }
 
 .divisoria {
